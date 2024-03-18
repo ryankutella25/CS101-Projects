@@ -7,6 +7,7 @@
 
 using namespace std;
 
+
 uint64_t djb2(string str) {
     const char *ptr = str.c_str();
     uint64_t hash = 5381;
